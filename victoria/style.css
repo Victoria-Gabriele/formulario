@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 196, 232);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(207, 23, 115);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+form {
+    font-size: 18px;
+    text-align: center;
+}
+
+#botao {
+    background-color: #ff69b4; /* Tom de rosa claro */
+    color: white; /* Cor do texto em branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px 20px; /* Espaçamento interno (vertical e horizontal) */
+    font-size: 15px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.botao-rosa:hover {
+    background-color: #ff1493; /* Tom de rosa mais escuro quando o botão é hovered */
+}
+#botao:active {
+    background-color: #ff69b4;
+    transform: scale(0.95);
+}
